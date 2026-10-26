@@ -1,0 +1,20 @@
+# Interface web
+Flask>=3.0,<4.0
+Flask-Cors>=4.0,<6.0
+
+# API et configuration
+groq>=0.11,<2.0
+python-dotenv>=1.0,<2.0
+
+# Collecte et traitement audio
+yt-dlp>=2024.8.6
+pydub>=0.25.1,<1.0
+librosa>=0.10.2,<1.0
+matplotlib>=3.8,<4.0
+numpy>=1.26,<2.0
+
+# Classification et filtrage audio avec YAMNet
+# TensorFlow 2.15 est retenu pour rester compatible avec l'ancienne pile Keras utilisée par le projet.
+tensorflow==2.15.1
+tensorflow-hub==0.16.1
+tf-keras==2.15.0
